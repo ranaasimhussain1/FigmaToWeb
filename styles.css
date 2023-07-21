@@ -1,0 +1,401 @@
+:root {
+  --gray: #42454a;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  box-sizing: border-box;
+  color: var(--gray);
+  font-family: "Ubuntu", sans-serif;
+}
+nav {
+  display: flex;
+  margin: 25px 49.5px 25px 49.5px;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero ul {
+  display: flex;
+  list-style: none;
+}
+.hero ul a {
+  text-decoration: none;
+  color: var(--gray);
+}
+.hero ul a:hover {
+  border-bottom: 2px solid var(--gray);
+  width: auto;
+}
+.hero ul :nth-child(2) {
+  margin: 0 15%;
+}
+
+.navButtons {
+  display: flex;
+  gap: 3%;
+}
+button {
+  width: 106px;
+  height: 48;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+.dark {
+  background-color: var(--gray);
+  color: white;
+}
+hr {
+  opacity: 70%;
+}
+section {
+  width: 80%;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  margin: 5% 10%;
+}
+.main {
+  margin: 5% 3%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.main .left {
+  display: block;
+  text-align: left;
+}
+.mainLText {
+  font-size: 90px;
+  font-weight: lighter;
+}
+.mainLText span {
+  font-weight: bold;
+  display: block;
+}
+.left hr {
+  width: 335px;
+  height: 4px;
+  margin: 10% 0px;
+  border-width: 0;
+
+  background-color: var(--gray);
+}
+.left p {
+  width: 353px;
+
+  font-size: 22px;
+}
+
+.mainButtons {
+  display: flex;
+  padding-top: 10%;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+}
+.buyNow {
+  display: flex;
+  width: 162px;
+  height: 58px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.buyNow img {
+  width: 58px;
+  height: 58px;
+}
+.buyNow p {
+  font-size: 20px;
+  font: medium;
+}
+.Watch {
+  display: flex;
+}
+.Watch p {
+  width: 87px;
+  height: 75px;
+  font-size: 18px;
+}
+.right {
+  position: relative;
+}
+
+.right .bg {
+  position: absolute;
+  top: 10px;
+  left: 355px;
+  z-index: -1;
+}
+.mainRow {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10%;
+}
+.rowContainer {
+  width: 174.47px;
+  stroke: #fffbfb;
+  border: 2px solid rgb(236, 236, 236);
+  box-shadow: 10px 10px 55px rgb(189, 189, 189);
+  text-align: center;
+  padding: 3% 0;
+  border-radius: 5%;
+}
+.rowContainer > h1 {
+  font: bold;
+  font-size: 40px;
+}
+.rowContainer > span {
+  font-size: 18px;
+}
+.rowContainer > p {
+  font: regular;
+  font-size: 13px;
+  padding-top: 10px;
+}
+.product {
+  margin: 5% 10%;
+  position: relative;
+  top: 0;
+}
+.productText h1 {
+  font: bold;
+  font-size: 50px;
+}
+.productText p {
+  font-size: 20px;
+  padding: 3%;
+}
+.productMain {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 10%;
+
+  margin-top: 5%;
+}
+.Pright ul {
+  list-style: none;
+}
+.Pright ul li {
+  display: flex;
+  width: 80%;
+  padding-bottom: 4%;
+  align-items: center;
+  justify-content: center;
+}
+.Pright ul li p {
+  font-size: 20px;
+  margin-left: 2%;
+}
+.Pleft img {
+  height: 706.58px;
+  width: 748px;
+  position: absolute;
+  top: 10%;
+  left: -10%;
+  z-index: -1;
+}
+.highEfficiency img {
+  width: 100%;
+  height: auto;
+}
+
+.accessoriesRowText h1 {
+  font: bold;
+  font-size: 50px;
+  margin-bottom: 5%;
+}
+.accessoriesRowsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: 10%;
+  width: 80vw;
+}
+.accessoriesRowText ul {
+  list-style: none;
+}
+.accessoriesRowText ul li {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.accessoriesRowText ul li img {
+  width: 49px;
+  height: 49px;
+  padding-right: 3%;
+}
+
+.ARow1,
+.ARow2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 5%;
+  align-items: center;
+}
+.APart1 {
+  width: 379px;
+  height: 379px;
+}
+.APart2 {
+  width: 493px;
+  height: 438px;
+  z-index: -1;
+}
+.accessoriesEnd {
+  color: #42454a;
+  border: 2px solid var(--gray);
+  padding: 20px 5px;
+  border-radius: 5px;
+
+  margin: 8% 30% 5% 30%;
+}
+
+.galleryImage img {
+  width: 633px;
+  height: 485px;
+}
+.galleryImage {
+  position: relative;
+}
+.galleryImage p {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  font-size: 20px;
+}
+.galleryContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: 15%;
+  width: 80vw;
+}
+.GRow1,
+.GRow2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 5%;
+  align-items: center;
+  position: relative;
+  top: 0;
+}
+.galleryImage img {
+  border-radius: 5%;
+  width: 533px;
+  height: 385px;
+}
+.galleryPoints h1 {
+  width: 120%;
+  color: #42454a;
+  border: 2px solid var(--gray);
+  padding: 10% 60%;
+  border-radius: 5px;
+  margin-bottom: 5%;
+}
+
+.colorImagesContainer {
+  position: relative;
+  text-align: center;
+  width: 164px;
+  height: 164px;
+  bottom: 150px;
+}
+.colorImagesContainer h2 {
+  position: absolute;
+  top: 270px;
+  left: 250px;
+}
+
+.colorMainImage img {
+  width: 100%;
+  height: 673px;
+}
+.colorRowImages {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+}
+.testimonial {
+  width: 85%;
+  min-height: 90vh;
+}
+
+.testimonialsRow {
+  transform: scale(0.9);
+  margin: 1rem;
+  display: grid;
+  grid-gap: 3rem;
+  grid-template-columns: 30% 30% 30%;
+}
+.testimonialContainer {
+  padding: 2rem 1rem;
+  border-radius: 0.8rem;
+  box-shadow: 5px 5px 20px #6d6b6b6b;
+  height: 366px;
+  width: 360px;
+}
+.Ttext {
+  font-size: 20px;
+  padding: 8%;
+  height: 40%;
+}
+.Tfooter {
+  display: flex;
+  justify-content: space-between;
+  padding: 20%;
+}
+.newsletter {
+  height: auto;
+}
+input {
+  width: 400px;
+  height: 81px;
+  font-size: 20px;
+  padding-left: 2%;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+form button {
+  font-size: 20px;
+
+  width: 196px;
+  height: 81px;
+}
+.footer {
+  background-color: var(--gray);
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  color: white;
+}
+.Fright {
+  padding-top: 10%;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+}
+.fcolumn h1 {
+  font: bold;
+  font-size: 22px;
+}
+.fcolumn ul {
+  list-style: none;
+  padding-top: 5%;
+}
+.fcolumn ul li {
+  font-size: 16px;
+  padding: 5%;
+}
